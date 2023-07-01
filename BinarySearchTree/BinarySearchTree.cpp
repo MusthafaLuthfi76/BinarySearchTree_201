@@ -111,7 +111,7 @@ public :
         if (ptr != NULL)
         {
             postorder(ptr->leftchild);
-            postorder(ptr->rightchild;
+            postorder(ptr->rightchild);
             cout << ptr->info << " ";
 
         }
